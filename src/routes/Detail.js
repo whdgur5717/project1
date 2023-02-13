@@ -10,7 +10,6 @@ function Detail() {
       `https://yts.mx/api/v2/movie_details.json?movie_id=${id}`
     );
   };
-  console.log(main);
 
   useEffect(() => {
     getMovies();

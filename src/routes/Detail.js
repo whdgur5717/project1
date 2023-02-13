@@ -9,7 +9,6 @@ function Detail() {
     const first = await axios.get(
       `https://yts.mx/api/v2/movie_details.json?movie_id=${id}`
     );
-    console.log("switch");
   };
   console.log(main);
 

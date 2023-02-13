@@ -7,7 +7,7 @@ import Home from "./routes/Home";
 import Detail from "./routes/Detail";
 function App() {
   return (
-    <div id="d">
+    <div>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/detail/:id" element={<Detail></Detail>}></Route>
